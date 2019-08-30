@@ -5,7 +5,7 @@ A docker image to avoid installing `node`, `npm` (`yarn`), and [`create-react-ap
 ## Usage
 
 ```
-$ docker run -v $PWD:/app edgargonzalez/create-react-app my-app
+$ docker run --rm -v $PWD:/app edgargonzalez/create-react-app my-app
 
 Creating a new React app in /app/my-app.
 
